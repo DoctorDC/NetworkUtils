@@ -11,8 +11,13 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        
+
     }
+/*
+判断是否可以访问网络
+使用ping命令，注意window和linux的参数区别
+
+*/
 
     public boolean isNetWorkAvailable(String ip) {
         Runtime runtime = Runtime.getRuntime();
